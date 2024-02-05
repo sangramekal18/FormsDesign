@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+          background-color: rgb(156, 69, 237);
+        }
+        .container
+        {
+            width: 80%;
+            color: aliceblue;
+
+        }
+        input[type=text], input[type=name]
+        {
+            width: 30%;
+            padding: 5px 5px;
+            margin: 10px 0;
+            outline: none;
+            font-size: 16px;
+        }
+        input[type=date],input[type=date]
+        {
+            width: 20%;
+            padding: 5px 10px;
+            margin: 10px 0;
+            outline: none;
+            font-size: 16px;
+        }
+        input[type=text],input[type=email]
+        {
+            width: 40%;
+            padding: 5px 10px;
+            margin: 10px 0;
+        }
+        input[type=number],input[type=number]
+        {
+            width: 40%;
+            padding: 5px 10px;
+            margin: 15px 0;
+        }
+
+        input[type=gender],input[type=gender]
+        {
+            width: 40%;
+            padding: 5px 10px;
+            margin: 50px 10;
+        }
+        input[type=textaddress],input[type=address]
+        {
+            width: 30%;
+            padding: 40px 40px;
+            margin: 25px 20px;
+        }
+        input[input=city],input[type=city]
+        {
+            width: 50%;
+            padding: 40px 40px;
+            margin: 25px 20px;
+        }
+        input[type=number],input[type=number]
+        {
+            width: 20%;
+            padding: 20px 20px;
+            margin: 5px 50px;
+        }
+        
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="" method="post">
+        <label for="name">FIRST NAME:</label>
+        <input type="text" placeholder="Enter here name" id="txtname"
+         name="txtname"  autocomplete="off" required><br>
+         
+         <label for="Last Name">LAST NAME:</label>
+         <input type="text" placeholder="Enter here name" id="txtname"
+          name="txtname"  autocomplete="off" required><br>
+          
+          <label for="date">DATE OF BIRTH:</label>
+          <input type="date" placeholder="Enter here birthdate" id="date"
+           name="date"  autocomplete="off" required><br>
+           
+           <label for="email">EMAIL:</label>
+           <input type="email" placeholder="Enter here email" id="txtemail"
+            name="txtemail"  autocomplete="off" required><br>
+            
+            <label for="number"> MOBILE NUMBER:</label>
+            <input type="number" placeholder="Enter here number" id="number"
+            name="number"  autocomplete="off" required><br>
+
+            <label for="gender">GENDER:</label>
+            <input type="radio" id="male"
+            name="gender" value="male" autocomplete="off" required>
+             <label for="male">Male</label>
+            
+            <input type="radio" id="female"
+            name="gender" value="female" autocomplete="off" required>
+            <label for="female">Female</label>
+
+            <input type="radio" id="other"
+            name="gender" value="other" autocomplete="off" required>
+            <label for="other">Other</label><br>
+
+            <label for="address">ADDRESS</label>
+            <input type="textaddress" placeholder="Enter here address" id="textaddress"
+             name="textaddress" size="30px" autocomplete="off" required><br>
+
+             <label for="city">Select a city:</label>
+            <select id="city" name="city">
+            <option value="mumbai">mumbai</option>
+             <option value="Pune">Pune</option>
+            <option value="Kolhapur">Kolhapur</option>
+            </select><br>
+            
+            <label for="pincode">PINCODE</label><br>
+             <input type="number" id="pincode"
+            name="pincode" min="100000" max="999999" step="1" autocomplete="off" required><br>
+
+            <label for="state">STATE:</label>
+            <select id="state" name="state">
+            <option value="maharastra">maharastra</option>
+             <option value="up">up</option>
+            <option value="madhya pradesh">madhya pradesh</option>
+            </select><br>
+            
+            <label for="country">CONTOURY:</label>
+            <select id="country" name="country">
+            <option value="india">India</option>
+             <option value="china">china</option>
+            <option value="america">America</option>
+            </select><br>
+
+            <label for="hobbies">HOBBIES:</label>
+            <input type="radio" id="Drawing"
+            name="Drawing" value="Drawing" autocomplete="off" required>
+            <label for="Drawing">Drawing</label>
+
+
+            <input type="radio" id="singing"
+            name="singing" value="singing" autocomplete="off" required>
+            <label for="Singing">Singing</label>
+
+
+
+            <input type="radio" id="Dancing"
+            name="Dancing" value="Dancing" autocomplete="off" required>
+            <label for="Dancing">Dancing</label><br>
+
+
+             <label for="Other">Other</label>
+            <input type="radio" id="other"
+            name="Other" value="other" autocomplete="off" required>
+            <input type="Other"  id="txtother"
+            name="txtother"  autocomplete="off" required><br>
+            <table>
+            <thead>
+                <tr>
+                    <th>QUALIFICATION</th>
+                    <th>Sl.no</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+            </thead>
+            <body>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+            </body>
+        </table>
+           
+           
+            <label for="courses">COURSES</label><br>
+            <label for="applied for">APPLIED FOR :</label>
+            
+            <label for="bca">BCA</label>
+            <input type="radio" id="BCA"
+            name="BCA" value="BCA" autocomplete="off" required>
+
+            <label for="b.com">B.COM</label>
+            <input type="radio" id="b.com"
+            name="B.com" value="B.com" autocomplete="off" required>
+
+
+            <label for="B.Sc">B.Sc</label>
+            <input type="radio" id="B.Sc"
+            name="B.Sc" value="B.Sc" autocomplete="off" required>
+
+
+            <label for="B.A">B.A</label>
+            <input type="radio" id="B.A"
+            name="B.A" value="B.A" autocomplete="off" required><br>
+
+
+            
+
+           
+            <input type="submit" value="Submit">
+            <input type="reset"  value="Reset"
+          
+             
+        </div>
+
+
+   
+   
+            
+           
+ 
+          
+
+    </form>
+</body>
+</html>
